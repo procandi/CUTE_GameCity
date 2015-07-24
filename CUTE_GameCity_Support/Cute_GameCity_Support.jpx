@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="javaFormatting" name="alignMultilineParenthesis" value="0"/>
+  <property category="javaFormatting" name="arrayInitDataOnNewLine" value="0"/>
+  <property category="javaFormatting" name="catchOnNewLine" value="0"/>
+  <property category="javaFormatting" name="elseOnNewLine" value="0"/>
+  <property category="javaFormatting" name="extendsOnNewLine" value="0"/>
+  <property category="javaFormatting" name="finallyOnNewLine" value="0"/>
+  <property category="javaFormatting" name="implementsOnNewLine" value="0"/>
+  <property category="javaFormatting" name="whileOnNewLine" value="0"/>
+  <property category="javaFormatting" name="wrapAtColumn" value="1000"/>
+  <property category="javadoc" name="custom.tags.1" value="todo;a;To Do:"/>
+  <property category="runtime" name="DefaultConfiguration" value="-1"/>
+  <property category="runtime.0" name="ConfigurationName" value="appSupport"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.0" name="application.class" value="cute_gamecity_support.appSupport"/>
+  <property category="serverservices" name="disabled.services" value="jdatastore"/>
+  <property category="serverservices" name="single.server.name" value="Tomcat 4.0"/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value=""/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2009"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="Encoding" value="Big5"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="InstanceVisibility" value="2"/>
+  <property category="sys" name="JDK" value="java version 1.4.2_01-b06"/>
+  <property category="sys" name="JvmVersion" value="1.2"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="SQLSERVERJDBC1.2"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value=""/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <node name="Cute_GameCity_Support" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="contentRules.1" value="I:**/*.*"/>
+    <property category="archiving" name="targetPath" value="Cute_GameCity_Support.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="Cute_GameCity_Support2" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ExecutableJarArchiver"/>
+    <property category="archiving" name="executableEnabled.1" value="1"/>
+    <property category="archiving" name="executableEnabled.2" value="1"/>
+    <property category="archiving" name="executableEnabled.3" value="1"/>
+    <property category="archiving" name="executableEnabled.4" value="1"/>
+    <property category="archiving" name="executableEnabled.5" value="1"/>
+    <property category="archiving" name="executableFiles.1" value="Cute_GameCity_Support2W.exe"/>
+    <property category="archiving" name="executableFiles.2" value="Cute_GameCity_Support2.exe"/>
+    <property category="archiving" name="executableFiles.3" value="Cute_GameCity_Support2-linux"/>
+    <property category="archiving" name="executableFiles.4" value="Cute_GameCity_Support2-solaris"/>
+    <property category="archiving" name="executableFiles.5" value="Cute_GameCity_Support2-mac"/>
+    <property category="archiving" name="sourceJar" value="Cute_GameCity_Support.jar"/>
+    <property category="archiving" name="targetPath" value="Cute_GameCity_Support2.jar"/>
+  </node>
+</project>
